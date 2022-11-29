@@ -1,0 +1,11 @@
+.items {
+    margin-top: "2%";
+    padding-left: "10%";
+    padding-right: "10%";
+}
+
+@media (max-width: 495px) {
+    .items {
+      margin-top: 2%;
+    }
+  }

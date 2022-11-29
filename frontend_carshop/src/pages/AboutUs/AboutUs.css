@@ -1,0 +1,41 @@
+.img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.txt {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 495px) {
+  .txt {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 495px) {
+  .img {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.article {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.center {
+  display: flex ;
+  justify-content: center ;
+}
+
+.page {
+  margin-top: 2% ;
+  display: flex ;
+  justify-content: center ;
+  padding-left: 10% ;
+  padding-right: 10% ;
+}
